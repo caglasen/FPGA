@@ -1,0 +1,12 @@
+|ex01
+i0 => q1.IN0
+i0 => q2.IN0
+i1 => q1.IN1
+i1 => q1.IN0
+i1 => q2.IN1
+i2 => q1.IN1
+i2 => q2.IN1
+q1 << q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 << q2.DB_MAX_OUTPUT_PORT_TYPE
+
+

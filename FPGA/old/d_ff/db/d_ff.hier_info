@@ -1,0 +1,39 @@
+|d_ff
+clk => clk2[0].CLK
+clk => clk2[1].CLK
+clk => clk2[2].CLK
+clk => clk2[3].CLK
+clk => clk2[4].CLK
+clk => clk2[5].CLK
+clk => clk2[6].CLK
+clk => clk2[7].CLK
+clk => clk2[8].CLK
+clk => clk2[9].CLK
+clk => clk2[10].CLK
+clk => clk2[11].CLK
+clk => clk2[12].CLK
+clk => clk2[13].CLK
+clk => clk2[14].CLK
+clk => clk2[15].CLK
+clk => clk2[16].CLK
+clk => clk2[17].CLK
+clk => clk2[18].CLK
+clk => clk2[19].CLK
+clk => clk2[20].CLK
+clk => clk2[21].CLK
+clk => clk2[22].CLK
+clk => clk2[23].CLK
+clk => clk2[24].CLK
+clk => clk2[25].CLK
+clk => clk2[26].CLK
+clk => clk2[27].CLK
+clk => clk2[28].CLK
+clk => clk2[29].CLK
+clk => clk2[30].CLK
+clk => clk2[31].CLK
+reset => r_reg.ACLR
+en => r_reg.ENA
+d => r_reg.DATAIN
+q <= r_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+

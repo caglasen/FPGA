@@ -1,0 +1,9 @@
+module ex01 (i0, i1, i2, q1, q2);
+input wire i0,i1,i2;
+output wire q1,q2;
+
+q1 = a | b |(~b & c);
+q2 = c | (~a & ~b);
+
+
+endmodule;

@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Enver ASLAN/Desktop/FPGA/ex01.v
+source_file = 1, C:/Users/Enver ASLAN/Desktop/FPGA/db/ex01.cbx.xml
+design_name = ex01
+instance = comp, \q1~output , q1~output, ex01, 1
+instance = comp, \q2~output , q2~output, ex01, 1
+instance = comp, \i2~input , i2~input, ex01, 1
+instance = comp, \i0~input , i0~input, ex01, 1
+instance = comp, \i1~input , i1~input, ex01, 1
+instance = comp, \q1~0 , q1~0, ex01, 1
+instance = comp, \q2~0 , q2~0, ex01, 1

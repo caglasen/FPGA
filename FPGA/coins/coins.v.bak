@@ -1,0 +1,22 @@
+module coins(leds, pb0, pb1, clk);
+input pb0, pb1;
+input clk;
+output reg[7:0];
+
+reg[7:0] total;
+wire[2:0] buttons;
+reg[1:0] states;
+assign buttons = {~pb1, ~pb0};
+
+localparam  STATE00 = 2'b00,
+				STATE01 = 2'b01,
+				STATE10 = 2'b10,
+				
+				
+always @(posedge clk)
+begin
+	case (states)
+	
+end
+
+endmodule

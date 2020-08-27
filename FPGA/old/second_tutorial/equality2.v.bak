@@ -1,0 +1,13 @@
+module equality2(a, b, aeqb);
+
+input wire[1:0] a, b;
+output wire aeqb;
+
+wire e0, e1;
+
+equality eq1(a[0], b[0], e0);
+equality eq2(a[1], b[1], e1);
+
+assign  aeqb = e0 & e1;
+
+endmodule

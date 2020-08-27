@@ -1,0 +1,6 @@
+
+State Machine - |clock_ex|states
+Name states.STATE0 states.STATE2 states.STATE1 
+states.STATE0 0 0 0 
+states.STATE1 1 0 1 
+states.STATE2 1 1 0 

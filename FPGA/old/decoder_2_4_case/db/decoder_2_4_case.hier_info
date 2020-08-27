@@ -1,0 +1,10 @@
+|decoder_2_4_case
+a[0] => Decoder0.IN1
+a[1] => Decoder0.IN0
+en => Decoder0.IN2
+y[0] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

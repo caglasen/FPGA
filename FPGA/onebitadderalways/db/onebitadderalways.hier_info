@@ -1,0 +1,9 @@
+|onebitadderalways
+sw1 => leds.IN0
+sw1 => always0.IN0
+sw2 => leds.IN1
+sw2 => always0.IN1
+leds[0] << leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] << always0.DB_MAX_OUTPUT_PORT_TYPE
+
+

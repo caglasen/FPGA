@@ -1,0 +1,24 @@
+module coins(key0, key1, leds, clk);
+
+input key0, key1, clk;
+output reg [7:0] leds;
+
+reg [7:0] total;
+
+wire [1:0] buttons;
+
+assing buttons = {~key1, ~key0};
+reg [1:0] bstate;
+
+always @(posedge clk)
+begin
+	case(bstate)
+	
+	2'b00:
+		
+	2'b01:
+	
+	2'b10:
+end
+
+endmodule

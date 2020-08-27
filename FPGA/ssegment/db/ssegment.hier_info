@@ -1,0 +1,41 @@
+|ssegment
+keys[0] => Equal0.IN3
+keys[0] => Equal1.IN3
+keys[0] => Equal2.IN1
+keys[1] => Equal0.IN2
+keys[1] => Equal1.IN2
+keys[1] => Equal2.IN0
+leds[0] <= leds[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= leds[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= leds[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= leds[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= leds[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= leds[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= leds[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+grounds[0] <= grounds[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+grounds[1] <= grounds[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+grounds[2] <= grounds[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+grounds[3] <= grounds[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+display[0] <= <VCC>
+display[1] <= <VCC>
+display[2] <= <VCC>
+display[3] <= <VCC>
+display[4] <= <VCC>
+display[5] <= <VCC>
+display[6] <= <VCC>
+clk => leds[0]~reg0.CLK
+clk => leds[1]~reg0.CLK
+clk => leds[2]~reg0.CLK
+clk => leds[3]~reg0.CLK
+clk => leds[4]~reg0.CLK
+clk => leds[5]~reg0.CLK
+clk => leds[6]~reg0.CLK
+clk => leds[7]~reg0.CLK
+clk => grounds[0]~reg0.CLK
+clk => grounds[1]~reg0.CLK
+clk => grounds[2]~reg0.CLK
+clk => grounds[3]~reg0.CLK
+clk => state~2.DATAIN
+
+

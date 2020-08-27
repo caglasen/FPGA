@@ -1,0 +1,14 @@
+|prior_encoder_if
+r[1] => y.DATAA
+r[2] => y.OUTPUTSELECT
+r[2] => y.DATAA
+r[3] => y.OUTPUTSELECT
+r[3] => y.OUTPUTSELECT
+r[4] => y.OUTPUTSELECT
+r[4] => y.OUTPUTSELECT
+r[4] => y[2].DATAIN
+y[0] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] << r[4].DB_MAX_OUTPUT_PORT_TYPE
+
+

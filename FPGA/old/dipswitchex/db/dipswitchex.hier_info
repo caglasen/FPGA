@@ -1,0 +1,11 @@
+|dipswitchex
+ds[0] => leds[0].DATAIN
+ds[1] => leds[1].DATAIN
+ds[2] => leds[2].DATAIN
+ds[3] => leds[3].DATAIN
+leds[0] << ds[0].DB_MAX_OUTPUT_PORT_TYPE
+leds[1] << ds[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[2] << ds[2].DB_MAX_OUTPUT_PORT_TYPE
+leds[3] << ds[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

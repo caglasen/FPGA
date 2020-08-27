@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Aug 11 13:56:45 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : ssegment
+Top-level Entity Name : ssegment
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 82 / 22,320 ( < 1 % )
+    Total combinational functions : 79 / 22,320 ( < 1 % )
+    Dedicated logic registers : 23 / 22,320 ( < 1 % )
+Total registers : 23
+Total pins : 14 / 154 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

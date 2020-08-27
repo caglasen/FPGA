@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Enver ASLAN/Desktop/FPGA/prior_encoder_if/prior_encoder_if.v
+source_file = 1, C:/Users/Enver ASLAN/Desktop/FPGA/prior_encoder_if/db/prior_encoder_if.cbx.xml
+design_name = prior_encoder_if
+instance = comp, \y[0]~output\, y[0]~output, prior_encoder_if, 1
+instance = comp, \y[1]~output\, y[1]~output, prior_encoder_if, 1
+instance = comp, \y[2]~output\, y[2]~output, prior_encoder_if, 1
+instance = comp, \r[3]~input\, r[3]~input, prior_encoder_if, 1
+instance = comp, \r[1]~input\, r[1]~input, prior_encoder_if, 1
+instance = comp, \r[2]~input\, r[2]~input, prior_encoder_if, 1
+instance = comp, \r[4]~input\, r[4]~input, prior_encoder_if, 1
+instance = comp, \y~0\, y~0, prior_encoder_if, 1
+instance = comp, \y~1\, y~1, prior_encoder_if, 1
